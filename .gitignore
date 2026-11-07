@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# Your own data stays local: downloaded registers, job lists and results
+/*.csv
+/*.json
+/*.txt
