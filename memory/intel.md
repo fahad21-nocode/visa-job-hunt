@@ -64,7 +64,22 @@ portals and graduate/associate intakes, which aggregators index poorly.
 "Zero roles on two aggregators" was not a real signal that the channel
 is weak — it mostly shows aggregators don't cover it. The channel is
 untested until their own careers sites are swept. Result of that sweep:
-see the entry below once the portal sweep runs.
+confirmed. Swept all 15 priority employers' own careers portals and found
+11 live UK SuccessFactors/HR-tech roles the aggregators missed entirely
+(3 Capgemini, 2 Accenture, 1 Deloitte, 2 PwC, 2 KPMG, 1 NTT DATA) — so the
+earlier "real signal" conclusion was simply wrong, exactly as suspected.
+Every one of the 10 SuccessFactors-specific roles found this way failed
+Gate 3 on configuration-expertise and/or seniority (Senior Consultant and
+up — none at coordinator/analyst level), the same pattern seen on
+aggregator-sourced SF roles earlier. So the *corrected* read is: the
+priority channel does post real UK roles that aggregators miss, but at
+these 15 brands specifically, dedicated SuccessFactors roles consistently
+sit above the level Fahad's transactional/non-configuration SF experience
+clears — a genuine fit signal, not a discovery-coverage problem. Several
+brands (TCS, Wipro, Cognizant, Tech Mahindra, IBM, LTIMindtree/LTM, EY)
+still need a proper keyword-filtered pass on their own portals
+(`manual_check_needed` in priority_employers.csv) before concluding
+anything about them specifically.
 
 Separately: `/priority-channel-sweep` also asserted that GXO Logistics
 and Motability Operations had already been four-gate-screened in chat on

@@ -13,6 +13,21 @@ roles until 31 Dec 2026, sponsorship-first-contact question, warm-intro
 check before apply, R3/R4 as parallel tracks. See
 `memory/runs/strategy-reset-20261112-1216.md` for the full run report.
 
+## 2026-11-12 — Scrapling unavailable in this sandbox, substituted Firecrawl
+
+`career-ops-rules.md` §2 specifies the Scrapling skill for visa-sponsorship
+searches. Scrapling itself installed cleanly via the documented npx
+command, but this cloud session's network proxy only allows a pre-approved
+host allowlist, so direct HTTP requests to company domains (e.g.
+www.infosys.com) are refused by the proxy before reaching the site at all
+— a sandbox network constraint, not a robots.txt or anti-bot block, and
+not something to try to route around. Substituted Firecrawl's MCP tools
+(`firecrawl_search`/`firecrawl_scrape`), which proxy through their own
+infrastructure, for this run's portal sweep. Flagging per the rule that a
+substitution away from Scrapling must be stated, not silent. A future
+session running outside this sandbox's proxy restrictions, or with the
+allowlist widened, should retry Scrapling directly.
+
 ## Scheduled — 2027-01-01 (not yet executed)
 
 Revert the RQF 3–5 apply gate from 3.5/5 to 4.0/5 (`career-ops-rules.md`
