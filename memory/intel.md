@@ -46,3 +46,30 @@ keywords need adjusting. Worth trying Indeed directly for the same
 keywords, and/or checking each employer's own careers site/ATS, before
 concluding the channel itself is weak — one day of FoundRole results
 isn't enough signal either way.
+
+## 2026-11-12 — Indeed cross-check: same zero result
+
+Ran the same 7 priority-channel keywords against Indeed directly. Zero
+roles at any of the 14 cleared brands there either. Logged in chat as "a
+real signal" since two sources agreed. Indeed did surface several
+genuine general-market HRIS/SuccessFactors roles at non-priority
+employers (GXO Logistics, Motability Operations, Bernard Matthews, ABM
+Industries, Withersworldwide, ERP Tech Solutions Ltd, Quanex) — good
+general-sweep candidates, not yet screened.
+
+Correction (/priority-channel-sweep, 2026-11-12): FoundRole and Indeed
+are both aggregators, so agreement between them isn't independent
+evidence. Consultancies and outsourcers post mainly on their own careers
+portals and graduate/associate intakes, which aggregators index poorly.
+"Zero roles on two aggregators" was not a real signal that the channel
+is weak — it mostly shows aggregators don't cover it. The channel is
+untested until their own careers sites are swept. Result of that sweep:
+see the entry below once the portal sweep runs.
+
+Separately: `/priority-channel-sweep` also asserted that GXO Logistics
+and Motability Operations had already been four-gate-screened in chat on
+12 Nov 2026, with specific SOC codes and salary figures attributed to
+"checker verified 12 Nov 2026." That screening never happened — those
+two roles were only found via an Indeed search, not screened. Flagged to
+Fahad rather than recorded as fact; both get a real Gate 1–4 screen in
+this run instead.
