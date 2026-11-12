@@ -103,6 +103,40 @@ screened (0 apply, 0 need-info, 16 don't-apply), in-house 7 roles screened
 systems & application support role families — no R3/R4 or other role
 families swept yet.
 
+## Follow-up — remaining 7 brands (13:30 UTC)
+
+Finished the keyword-filtered pass on the 7 brands left `manual_check_needed`: Tata Consultancy Services, Wipro, HCLTech, Cognizant, Tech Mahindra, IBM, EY.
+
+| Brand | UK roles found | manual_check_needed |
+|---|---|---|
+| Tata Consultancy Services | 0 | **Still blocked** — ibegin.tcsapps.com is a JS SPA with no accessible API/sitemap |
+| Wipro | 0 | Cleared — confirmed genuine zero via a direct SuccessFactors-API query (4 SF roles total, none UK) |
+| HCLTech | 0 | Cleared — confirmed genuine zero (the one promising lead from the first pass was actually Chennai, India — "United Kingdom" in its snippet was page furniture, not the job location) |
+| Cognizant | **2** | Cleared — found by checking each posting's actual stated location instead of the misleading `uki-en` URL slug |
+| Tech Mahindra | 0 | **Still blocked** — careers.techmahindra.com's listing page is JS-rendered; static fetch returned only a scam-alert banner |
+| IBM | 0 | **Still blocked** — the site's own location facet confirms 73 UK roles exist, but the search URL's query parameter doesn't actually filter by them, and no API/sitemap was found |
+| EY | 0 | Cleared — confirmed genuine zero via a direct SuccessFactors-API query (28 SF roles total, almost all US; 3 HRIS roles, all Belfast M&A "Deal Technology" roles, unrelated to HR systems) |
+
+Wipro, HCLTech and EY's ambiguity from the first pass is now resolved as
+genuine zero-result findings, not discovery gaps. TCS, Tech Mahindra and
+IBM remain blocked for concrete technical reasons (JS-rendered pages, no
+API) rather than time budget — a different tool (a real browser session,
+or Scrapling once this sandbox's network constraint lifts) would likely
+clear them.
+
+New roles found and now screened:
+- **Service Desk Engineer, Cognizant (Leeds)** — need-info, 2.5/5. Gate 1
+  pass, Gate 2 open (no salary stated; SOC 3131 new-entrant floor
+  £33,400 if 37.5hrs, though the role is a 24x7 rotating shift so hours
+  are genuinely unclear). Gate 3 is honestly unconfirmed rather than a
+  known gap: the essential tools (iManage, Azure Virtual Desktop,
+  ServiceNow) aren't in Fahad's stated skillset, but they're also not a
+  documented gap — worth asking about directly rather than assuming
+  either way. Below the 3.5 outbox-draft threshold, so no draft written.
+- **ITSM Consultant, Cognizant (Milton Keynes)** — don't-apply, 1/5.
+  Requires 8+ years as an ITSM Business Analyst/Consultant — decisive
+  seniority fail, same pattern as the consultancy-side SF roles.
+
 ## 5. Blocked / open items
 
 - Scrapling unavailable in this sandbox (network proxy allowlist) —
