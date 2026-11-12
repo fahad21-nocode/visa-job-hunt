@@ -5,3 +5,5 @@ __pycache__/
 /*.csv
 /*.json
 /*.txt
+# career-ops workspace config is tracked, not run output (added by /strategy-reset, 2026-11-12)
+!/opencode.json
