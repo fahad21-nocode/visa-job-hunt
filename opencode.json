@@ -1,0 +1,48 @@
+{
+  "_comment": "Workspace-local convention for the career-ops agent, not an OpenCode-standard schema. Adjust keys to match OpenCode's actual config format if it differs. Rules in career-ops-rules.md win if the two ever disagree.",
+  "agent": {
+    "name": "career-ops",
+    "created_by": "/strategy-reset",
+    "created_on": "2026-11-12",
+    "auto_apply": false,
+    "auto_send": false,
+    "weekly_application_cap": 10,
+    "tooling_freeze": {
+      "enabled": true,
+      "until": "2027-02-17",
+      "rule": "No new agents, model layers, scrapers, boards or MCP servers unless Fahad explicitly approves in the session. Fix only what's broken."
+    },
+    "apply_gate": {
+      "rqf_3_5": {
+        "value": 3.5,
+        "until": "2026-12-31",
+        "reverts_to": 4.0,
+        "reverts_on": "2027-01-01",
+        "log_reversion_to": "memory/decisions.md"
+      },
+      "rqf_6_plus": {
+        "value": 4.0
+      }
+    },
+    "routes": ["R1", "R2", "R3", "R4"],
+    "routes_are_parallel": true,
+    "scope": "uk-wide-including-government-nhs-civil-service-jobs-nhs-jobs",
+    "excluded_contract_type": "12-month-fixed-term",
+    "sweep_order": [
+      "priority_employers",
+      "tsl_window_tagging",
+      "general_sweep",
+      "r3_r4_parallel_tracks"
+    ],
+    "key_dates": {
+      "tsl_cos_cutoff": "2026-12-31",
+      "sponsorship_in_place_deadline": "2027-02-17",
+      "derived_offer_target": "2027-01-15"
+    },
+    "sourcing": {
+      "use_scrapling_for_visa_sponsorship_search": true,
+      "never_scrape": ["linkedin", "indeed", "ziprecruiter", "dice", "glassdoor"],
+      "use_connectors_for_above": true
+    }
+  }
+}

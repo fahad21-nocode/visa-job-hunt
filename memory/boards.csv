@@ -1,0 +1,8 @@
+board_name,type,scraping_allowed,connector,notes
+LinkedIn,job_board,no,required,Never scrape directly; use the LinkedIn connector.
+Indeed,job_board,no,required,Never scrape directly; use the Indeed connector.
+ZipRecruiter,job_board,no,required,Never scrape directly; use the ZipRecruiter connector.
+Dice,job_board,no,required,Never scrape directly; use the Dice connector.
+Glassdoor,job_board,no,required,Never scrape directly; use the Glassdoor connector.
+Civil Service Jobs,job_board,yes,none,In scope, UK-wide government requirement.
+NHS Jobs,job_board,yes,none,In scope, UK-wide government requirement.
