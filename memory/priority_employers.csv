@@ -1,16 +1,16 @@
 brand,legal_entity,register_match,rating,route,careers_url,ats,verified_on,notes
-Infosys,,,,,,,,
-Tata Consultancy Services,,,,,,,,
-Wipro,,,,,,,,
-HCLTech,,,,,,,,
-Cognizant,,,,,,,,
-Capgemini,,,,,,,,
-NTT DATA,,,,,,,,
-Tech Mahindra,,,,,,,,
-LTIMindtree,,,,,,,,
-Accenture,,,,,,,,
-IBM,,,,,,,,
-Deloitte,,,,,,,,
-PwC,,,,,,,,
-KPMG,,,,,,,,
-EY,,,,,,,,
+Infosys,Infosys Limited,exact,A,Skilled Worker,,,2026-11-12,"Companies House FC020086; London; also on GBM Senior/Specialist Worker. Sister entities Infosys Fluido UK LTD and Infosys Tech Solutions Ltd also on register, not yet checked."
+Tata Consultancy Services,Tata Consultancy Services,exact,A,Skilled Worker,,,2026-11-12,"Companies House 08055387; London; also GBM Senior/Specialist Worker and GBM Graduate Trainee."
+Wipro,Wipro Limited,exact,A,Skilled Worker,,,2026-11-12,"Companies House BR003334; London; also GBM Senior/Specialist Worker and GBM Graduate Trainee. Sister entities Wipro Appirio UK Limited and Wipro Connected Services UK Limited also on register, not yet checked."
+HCLTech,HCL Technologies UK Limited,exact,A,Skilled Worker,,,2026-11-12,Companies House 08658132; London; also GBM Senior/Specialist Worker.
+Cognizant,Cognizant Worldwide Limited,exact,A,Skilled Worker,,,2026-11-12,"Companies House 07195160; London; also GBM Senior/Specialist Worker. Sister entity Cognizant Business Logics Limited also on register, not yet checked."
+Capgemini,Capgemini UK PLC,exact,A,Skilled Worker,,,2026-11-12,"Companies House 00943935; London; also GBM Senior/Specialist Worker and GBM Graduate Trainee."
+NTT DATA,NTT DATA UK LIMITED,exact,A,Skilled Worker,,,2026-11-12,"Companies House 03085018; London; also GBM Senior/Specialist Worker. Sister entities NTT Data Business Solutions Limited and NTT DATA Services UK Limited are separate A-rated Skilled Worker sponsors too, not yet checked individually."
+Tech Mahindra,Tech Mahindra Limited,exact,A,Skilled Worker,,,2026-11-12,Companies House BR012190; Milton Keynes (not London); also GBM Senior/Specialist Worker.
+LTIMindtree,LTIMindtree UK Limited,removed,N/A,NOT CURRENTLY LICENSED,,,2026-11-12,"REMOVED from the register 2026-09-01 (confirmed via register history). Was A-rated Skilled Worker before removal. Do not treat as sponsor-eligible until re-verified; flag to Fahad before pursuing this brand on R1."
+Accenture,Accenture (UK) Limited,exact,A,Skilled Worker,,,2026-11-12,"Companies House 04757301; London; also GBM Senior/Specialist Worker. Sister entity Accenture Song Brand UK Limited is on the register but isActive:false, not checked further."
+IBM,IBM UK Ltd,exact,A,Skilled Worker,,,2026-11-12,Companies House 10244814; Winchester (not London); also GBM Senior/Specialist Worker.
+Deloitte,Deloitte LLP,exact,A,Skilled Worker,,,2026-11-12,Companies House OC303675; London; also GBM Senior/Specialist Worker.
+PwC,PricewaterhouseCoopers LLP,exact,A,Skilled Worker,,,2026-11-12,"Companies House 03580655; London; also GBM Senior/Specialist Worker and GBM Graduate Trainee. Separate NI entity (PricewaterhouseCoopers (Northern Ireland) LLP) also licensed, not checked."
+KPMG,KPMG LLP,exact,A,Skilled Worker,,,2026-11-12,"London; also GBM Senior/Specialist Worker. Related UK entities KPMG IFRG Ltd, KPMG LLP (Local Hires) and KPMG US Tax Service (London) LLP also licensed, not checked individually."
+EY,Ernst & Young,exact,A,Skilled Worker,,,2026-11-12,"Companies House OC335594; London; also GBM Senior/Specialist Worker and GBM Graduate Trainee."
