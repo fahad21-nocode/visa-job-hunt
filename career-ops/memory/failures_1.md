@@ -1,2 +1,4 @@
 # Failures / blocked sources log
 
+- huntukvisasponsors.com: Cloudflare "Just a moment..." bot-check (403) on every /job/ page via curl and WebFetch. Could not retrieve job detail pages directly. Search-engine snippets (via WebSearch) were used instead to identify candidate postings, but full posting text/dates could not be confirmed from this domain without bypassing the challenge, which was not attempted.
+- Firecrawl (firecrawl_search/firecrawl_scrape): daily MCP credit allowance exhausted for this session (confirmed by coordinator/other parallel agents). Repeated retries failed with "Insufficient credits" for most of this session; one scrape call succeeded late (mhruk.jobs.people-first.com) but is unreliable. Stopped relying on Firecrawl; switched to WebSearch, direct curl against ATS JSON APIs (Greenhouse/Lever/Ashby), and mcp__foundrole__jobs_search for discovery.
