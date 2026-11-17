@@ -40,6 +40,30 @@
   fixed-term contract under 12 months and so OUT regardless).
 - All 13 required keywords logged in sources_4.csv per site as attempted/unreliable.
 
+## E0. Retry pass with WebSearch (per coordinator instruction, after Firecrawl was confirmed exhausted)
+- Ran `site:jobs.nhs.uk`, `site:civilservicejobs.service.gov.uk` and `site:jobs.ac.uk` WebSearch
+  queries as a broader/different-method retry. The `site:` filter did not reliably hold (results
+  came mostly from aggregators — findajob.dwp.gov.uk, healthjobsuk.com, jobijoba.co.uk, nhsjobs.com,
+  university HR pages, jobs.justice.gov.uk, jobtrain.co.uk — rather than the target domains
+  themselves), and the index itself is stale: most hits had closing dates already in 2025 or early
+  2026, well before posting-date-within-14-days would allow, or were already expired relative to
+  today (2026-11-17).
+- Spot-checked the two liveliest-looking leads by fetching the actual job-advert URL directly
+  (not just a search page): `jobs.nhs.uk/candidate/jobadvert/C9220-26-0035` (Whittington Hospital
+  NHS Trust Systems Administrator) and `jobs.ac.uk/job/DLB765/senior-business-analyst-hr-systems`
+  (Senior Business Analyst, HR Systems). **Both individual advert pages also returned HTTP 403**,
+  confirming the block is site-wide on jobs.nhs.uk and jobs.ac.uk, not just on the search-results
+  endpoint. No roles from either site could be opened, verified for recency, or screened.
+- civilservicejobs.service.gov.uk did not surface in the WebSearch index at all under its own
+  domain; every hit was a different government job board (MoJ Justice Digital, DWP Digital, etc.)
+  that is outside this run's named source list, so none were added to discovery_4.csv.
+- Tried `mcp__foundrole__jobs_search` as an additional discovery channel per the coordinator's
+  suggestion: one call failed with "Location not recognised" (London, UK), and a second was denied
+  by the session's auto-mode permission classifier ("Unsanctioned Communication"). Not retried
+  further; foundrole was not part of the originally assigned source list in any case.
+- **Conclusion: NHS Jobs, Civil Service Jobs and jobs.ac.uk remain fully blocked this run even
+  after the WebSearch/direct-advert-URL retry pass. Zero roles screened from any of the three.**
+
 ## E. Firecrawl (used as a fallback fetch tool) — OUT OF CREDITS
 - `mcp__Firecrawl__firecrawl_scrape` returned "Insufficient credits for this connected-app
   request" on every attempt this run (NHS Jobs, Civil Service Jobs). The tool's own guidance said
