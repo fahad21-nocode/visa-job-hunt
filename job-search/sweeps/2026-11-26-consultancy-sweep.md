@@ -14,6 +14,14 @@ Result: 0 roles pass the apply gate today. 0 roles go to the weekly top 10-15. N
 
 Why it is incomplete: Firecrawl credits ran out, Indeed rate-limited the account, and FoundRole's visa signals are US H-1B data, so they are not used as UK evidence.
 
+## Temporary Shortage List check (gov.uk, read 26 Nov 2026)
+- Sources: MAC "Temporary Shortage List: Stage 2 report" and the interim TSL in Appendix Skilled Worker (SW 6.1A). Both the expanded Immigration Salary List and the interim TSL expire on 31 Dec 2026.
+- The MAC recommends 28 occupations for 18-month TSL access (none for the full three years). These are mostly construction trades, clean energy, foundational industries and three digital roles.
+- The three digital occupations are 3133 Database administrators and web content technicians, 3544 Data analysts, and 5242 Telecoms and related network installers and repairers.
+- Only 3544 Data analysts matches your role families, so data-analyst roles are the TSL priority. HRIS, HR operations, business systems support, service operations and project roles are not on this list as far as I read, so they need RQF 6+ and the 4.0 gate.
+- The report says TSL jobs do not get a discounted salary unless they are also on the Immigration Salary List. The new-entrant path (70% of the going rate, minimum £33,400) still needs checking per role with the checker or gov.uk. Entering 3544 directly in the checker has failed before.
+- I read the Stage 2 recommendation, not the final published list. Before scoring any role as TSL, confirm that code is in force in SW 6.1A/6.1B in the current rules.
+
 ## Roles found and screened
 Salary is shown only where the advert or a FoundRole estimate gave one. No advert stated a salary, so Gate 2 is "need-info" for all of them. Estimates are not adverts.
 
@@ -28,6 +36,16 @@ Salary is shown only where the advert or a FoundRole estimate gave one. No adver
 | 7 | Cognizant, Workday Integrations Consultant, Remote | 26 Oct | Workday is a gap, integration configuration needed. | Don't apply |
 | 8 | Cognizant, AI SDLC Solution & Enablement Lead, London | 25 Nov | Lead-level. | Don't apply |
 | 9 | Cognizant, Non-Functional Test Assurance Engineer, London | 25 Nov | Testing specialism. | Don't apply |
+
+### Second pass (FoundRole, Application Support Analyst and Data Analyst, last 45 days)
+| # | Employer, role, location | Posted | Gate result | Verdict |
+|---|---|---|---|---|
+| 10 | Infosys, Technology Analyst, Sales & Trading EUC/DSS Support, London (Canary Wharf, 5 days on site, weekend overtime) | 24 Nov | Level 2/3 desktop and end-user support. Estimate median £28,250, likely under the £33,400 new-entrant floor. Not TSL. | Don't apply |
+| 11 | HCLTech, Support Engineer (Robotics Teleoperator), London | 23 Nov | Physical VR/robot data-collection role. | Don't apply |
+| 12 | HCLTech, Senior Technical Specialist (Java/blockchain), London | 17 Nov | 5+ years engineering. | Don't apply |
+| 13 | HCLTech, Senior Technical Specialist (GCP DevOps), London | 20 Nov | Cloud/Terraform/Kubernetes, not his profile. | Don't apply |
+
+Not seen: the application-support search reported 5 more results hidden behind FoundRole's preview limit, and the Data Analyst search across Deloitte, PwC, EY, KPMG, Capgemini, NTT DATA, TCS, Wipro and HCLTech reported 1 hidden result and showed none. Those need the FoundRole site or each employer's own board.
 
 ## Sponsor register checks (data as of 24 Nov 2026)
 - Cognizant Worldwide Limited: A rating, Skilled Worker and Global Business Mobility routes, London. Exact name match to the register entry.
